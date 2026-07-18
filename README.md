@@ -10,14 +10,11 @@ spam_keyword = ["free", "win","won", "winner", "prize", "lottery", "click here",
 <br>
 is_spam = False
 <br>
-<br>
 for word in spam_keyword :
-<br>
 <br>
     if word in message:
     <br>
         is_spam = True
-        <br>
         <br>
         break
         <br>
@@ -26,9 +23,7 @@ if is_spam:
 <br>
     print("This message is SPAM")
     <br>
-    <br>
 else:
 <br>
     print("This message is NOT SPAM")
-    <br>
     <br>
